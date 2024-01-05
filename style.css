@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    background-color: rgb(199, 58, 58);
+    padding: 20px;
+    text-align: justify;
+}
+.content{
+    padding: 15px;
+}
+.book-container{
+    padding: 20px;
+    width: 25%;
+    background-color: black;
+    border-radius: 10px;
+    color: aliceblue;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.book-container h2{
+    color: rgb(199, 58, 58);
+}
+.book-container button{
+    background-color: rgb(199, 58, 58);
+    color: black;
+    border-radius: 10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin-top: 10px;
+    display: inline;
+
+}
+.add-button{
+    background-color: rgb(199, 58, 58);
+    color: antiquewhite;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    position: fixed;
+    bottom: 40px;
+    right: 100px;
+}
+.popuplay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+}
+.popbox{
+    background-color: rgb(199, 58, 58);
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+
+}
+.popbox input{
+    background-color: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+     
+}
+.popbox  :placeholder-shown {
+    background-color: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+
+}
+.popbox button{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: aliceblue;
+    margin: 5px;
+
+
+}
+.popbox input:focus{
+    outline: none;
+
+}
+.popbox textarea:focus{
+    outline:none;
+
+}
+.popbox input::placeholder
+{
+    color: black;
+}
+.popbox textarea::placeholder
+{
+    color: black;
+}
